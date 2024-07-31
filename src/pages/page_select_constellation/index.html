@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../common/css_animation.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDS24-PRPJ</title>
+  </head>
+  <body style="background-image: url(../page_title/img/background1.jpg)">
+    <div class="header">
+      <div class="header__text__wrapper">
+        <p>FIND YOUR WEAPON</p>
+        <p>BLACK SMITHY</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h1>당신의 별자리를 선택하세요</h1>
+        <h3>이 단계에서 무기의 이펙트가 결정됩니다</h3>
+        <div class="wrapper">
+          <div class="card__small">
+            <h4>양자리</h4>
+            <h5>3월21일-4월19일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>황소자리</h4>
+            <h5>4월20일-5월20일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>쌍둥이자리</h4>
+            <h5>5월21일-6월21일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>게자리</h4>
+            <h5>6월22일-7월22일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>사자자리</h4>
+            <h5>7월23일-8월22일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>처녀자리</h4>
+            <h5>8월23일-9월22일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>천칭자리</h4>
+            <h5>9월23일-10월22일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>전갈자리</h4>
+            <h5>10월23일-11월22일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>궁수자리</h4>
+            <h5>11월23일-12월21일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>염소자리</h4>
+            <h5>12월22일-1월19일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>물병자리</h4>
+            <h5>1월20일-2월18일생</h5>
+          </div>
+          <div class="card__small">
+            <h4>물고기자리</h4>
+            <h5>2월19일-3월20일생</h5>
+          </div>
+        </div>
+        <div class="wrapperBtn">
+          <button type="button" id="btnDisable" class="btn btn-disable">
+            선택을 기다리고 있습니다
+          </button>
+          <button
+            type="button"
+            id="btnEnable"
+            class="btn btn-enable"
+            style="display: none"
+            onClick="location.href='../page_selection_check_fourth'"
+          >
+            결정하기
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>

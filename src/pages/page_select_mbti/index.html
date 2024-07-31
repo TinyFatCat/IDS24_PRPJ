@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../common/css_animation.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDS24-PRPJ</title>
+  </head>
+  <body style="background-image: url(../page_title/img/background1.jpg)">
+    <div class="header">
+      <div class="header__text__wrapper">
+        <p>FIND YOUR WEAPON</p>
+        <p>BLACK SMITHY</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h1>당신의 MBTI를 선택하세요</h1>
+        <h3>이 단계에서 무기의 종류가 결정됩니다</h3>
+        <div class="wrapper-mbti-big">
+          <div id="mbti_i" class="card__big">I</div>
+          <div id="mbti_e" class="card__big">E</div>
+        </div>
+        <div id="cards-i" class="wrapper" style="display: none">
+          <div class="card__small">INFP</div>
+          <div class="card__small">INFJ</div>
+          <div class="card__small">INTP</div>
+          <div class="card__small">INTJ</div>
+          <div class="card__small">ISFP</div>
+          <div class="card__small">ISFJ</div>
+          <div class="card__small">ISTP</div>
+          <div class="card__small">ISTJ</div>
+        </div>
+        <div id="cards-e" class="wrapper" style="display: none">
+          <div class="card__small">ENFP</div>
+          <div class="card__small">ENFJ</div>
+          <div class="card__small">ENTP</div>
+          <div class="card__small">ENTJ</div>
+          <div class="card__small">ESFP</div>
+          <div class="card__small">ESFJ</div>
+          <div class="card__small">ESTP</div>
+          <div class="card__small">ESTJ</div>
+        </div>
+        <div class="wrapperBtn">
+          <button type="button" id="btnDisable" class="btn btn-disable">
+            선택을 기다리고 있습니다
+          </button>
+          <button
+            type="button"
+            id="btnEnable"
+            class="btn btn-enable"
+            style="display: none"
+            onClick="location.href='../page_selection_check_first'"
+          >
+            결정하기
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
