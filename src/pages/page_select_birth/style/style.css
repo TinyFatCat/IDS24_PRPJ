@@ -33,7 +33,7 @@
 .container h1,
 .container h3 {
   margin-bottom: 1rem;
-  color: white;
+  color: coral;
   animation: fadeIn 0.5s ease-in forwards, slideIn_down 0.5s ease-out forwards;
 }
 
@@ -88,12 +88,12 @@
   width: 8rem;
   height: 12rem;
   font-size: 5rem;
-  font-weight: 700;
+  font-weight: 500;
+  color: coral;
   text-align: center;
-  background-color: white;
-  border: solid;
+  background: none;
+  border: 0.2rem solid;
   border-color: coral;
-  border-width: 0.3rem;
   border-radius: 0.75rem;
   animation: fadeIn 0.5s ease-in forwards, slideIn_down 0.5s ease-out forwards;
 }
