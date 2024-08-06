@@ -24,6 +24,11 @@
   }
 }
 
+h1 {
+  margin-block: 0 2rem;
+  color: coral;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -40,9 +45,7 @@
     align-items: center;
 
     // padding: 12 rem;
-
     // margin-top: 20rem;
-    background-color: yellow;
     transform: translate(-50%, -50%);
 
     .btn {
